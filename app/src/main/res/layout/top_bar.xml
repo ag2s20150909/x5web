@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/top_layout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="50dp">
+
+	<LinearLayout
+		android:id="@+id/top_title"
+		android:visibility="visible"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="50dp">
+
+		<ImageButton
+			android:visibility="gone"
+			android:id="@+id/web_goback"
+			android:layout_gravity="center"
+			android:layout_height="40dp"
+			android:layout_width="40dp"
+			android:text="返回"
+			android:src="@drawable/goback"/>
+		<ImageButton
+			android:id="@+id/web_exit"
+			android:layout_gravity="center"
+			android:layout_height="40dp"
+			android:layout_width="40dp"
+			android:text="退出"
+			android:src="@drawable/exit"/>
+
+		<LinearLayout
+			android:layout_margin="5dp"
+			android:layout_gravity="center"
+			android:layout_weight="1.0"
+			android:layout_width="0.dp"
+			android:layout_height="50dp">
+
+			<ImageView
+				android:id="@+id/web_icon"
+				android:layout_gravity="center"
+				android:src="@drawable/ic_launcher"
+				android:layout_height="40dp"
+				android:layout_width="40dp"/>
+
+			<TextView
+				android:id="@+id/web_title"
+				android:layout_weight="1.0"
+				android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:text="百度一下"
+				android:gravity="center"/>
+
+			<ImageButton
+				android:id="@+id/web_refresh"
+				android:layout_gravity="center"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:text="刷新"
+				android:src="@drawable/refresh"/>
+
+		</LinearLayout>
+
+		<ImageButton
+			android:id="@+id/web_goforward"
+			android:layout_gravity="center"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:text="前进"
+			android:src="@drawable/goforward"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/top_secrch"
+		android:visibility="gone"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		>
+		<ImageView
+			android:id="@+id/search_icon"
+			android:layout_gravity="center"
+			android:layout_height="40dp"
+			android:layout_width="40dp"
+			android:text="搜索引擎图标"
+			android:src="@drawable/baidu"/>
+		<EditText
+			android:singleLine="true"
+			android:id="@+id/search_text"
+			android:layout_weight="1.0"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:text=""
+			android:gravity="left">
+		</EditText>
+		<Button
+			android:textSize="1sp"
+			android:text="x"
+			android:gravity="center"
+			android:id="@+id/btn_cleartext"
+			android:layout_gravity="center"
+			android:layout_height="30dp"
+			android:layout_width="30dp"
+		/>
+		<ImageButton
+			android:id="@+id/web_search"
+			android:layout_gravity="center"
+			android:layout_height="40dp"
+			android:layout_width="40dp"
+			android:text="搜索按钮"
+			android:src="@drawable/search"/>
+	</LinearLayout>
+
+</LinearLayout>
+

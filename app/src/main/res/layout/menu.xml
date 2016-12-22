@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_margin="8dp"
+	android:padding="9dp"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"
+			android:id="@+id/menuImageButtonExit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/home"
+			android:id="@+id/menuImageButtonHome"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/code"
+			android:id="@+id/menuImageButtonCode"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+		<ImageButton
+			android:layout_height="50dp"
+			android:text="Button"
+			android:layout_width="50dp"
+			android:src="@drawable/exit"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
